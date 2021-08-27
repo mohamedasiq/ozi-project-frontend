@@ -1,0 +1,22 @@
+.groupContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .groupContainer:hover {
+    background-color: rgb(245, 243, 243);
+  }
+  
+  .groupName {
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .conversationName {
+      display: none;
+    }
+  }
+  
